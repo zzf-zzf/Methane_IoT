@@ -8,9 +8,9 @@ AT+CACID=0
 
 AT+SMCONF="URL",b97b659315cf4f0cafd48b90e3421aa6.s2.eu.hivemq.cloud,8883
 
-AT+SMCONF="USERNAME",psusnec
+AT+SMCONF="USERNAME",secrets.h
 
-AT+SMCONF="PASSWORD",Psusnec06
+AT+SMCONF="PASSWORD",secrets.h
 
 # The "CLIENTID" should not be same if you connect the broker with more than two clients, and you can set this parameter randomly.
 AT+SMCONF="CLIENTID",PsusnecZIFAN
