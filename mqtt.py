@@ -91,8 +91,8 @@ def main():
     sendAt('AT+CNACT=0,1','OK',1)# not working (active)
     sendAt('AT+CACID=0', 'OK',1)
     sendAt('AT+SMCONF=\"URL\",b97b659315cf4f0cafd48b90e3421aa6.s2.eu.hivemq.cloud,8883','OK',1)
-    sendAt('AT+SMCONF=\"USERNAME\",psusnec','OK',1)
-    sendAt('AT+SMCONF=\"PASSWORD\",Psusnec06','OK',1)
+    sendAt('AT+SMCONF=\"USERNAME\",secrets.h','OK',1)
+    sendAt('AT+SMCONF=\"PASSWORD\",secrets.h','OK',1)
     sendAt('AT+SMCONF=\"KEEPTIME\",60','OK',1)
     sendAt('AT+SMCONF=\"CLIENTID\",ZHOU','OK',1)
 
