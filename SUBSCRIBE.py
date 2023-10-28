@@ -6,8 +6,8 @@ broker = 'b97b659315cf4f0cafd48b90e3421aa6.s2.eu.hivemq.cloud'
 port = 8883 #for ssl encryption
 topic = 'methane/mqtt'
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
-username = 'psusnec'
-password = 'Psusnec06'
+username = 'secrets.h'
+password = 'secrets.h'
 export_file = r"D:\pythonProject\MQTT\received_data.txt"
 
 def connect_mqtt():
